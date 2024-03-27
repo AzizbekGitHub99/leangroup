@@ -1,0 +1,103 @@
+.product{
+    padding: 40px 0;
+
+    &__wrapper{
+        background-image: url('../../assets/images/product.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 24px 20px;
+        border: 1px solid rgba(0, 16, 61, 0.12);
+
+        &__title{
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            span{
+                color: #EF7C00;
+            }
+        }
+
+        &__text{
+            color: rgb(44, 45, 46);
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 24px;
+            max-width: 400px;
+        }
+    }
+
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        
+        div {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        label{
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 0px 4px 4px 0px;
+            background: rgb(255, 255, 255);
+            padding: 4px;
+            display: flex;
+            align-items: center;
+        }
+        input{
+            border: none;
+            padding-left: 12px;
+            border-left: 1px solid rgba(0, 16, 61, 0.12);
+            height: 100%;
+            padding: 4px;
+            outline: none;
+        }
+        img{
+            padding: 4px;
+        }
+
+        &__textarea{
+            resize: none;
+            padding: 12px;
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px;
+            background: rgb(255, 255, 255);
+            margin-bottom: 12px;
+        }
+
+        &__btn{
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            line-height: 20px;
+            padding: 10px 20px;
+            border-radius: 4px;
+            background: rgb(239, 124, 0);
+            border: 1px solid transparent;
+
+            &:hover{
+                color: #EF7C00;
+                border: 1px solid #EF7C00;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+@media (max-width: 786px){
+    .product{
+        &__wrapper{
+            
+        &__title{
+            font-size: 28px;
+        }
+
+        &__text{
+            font-size: 12px;
+        }
+        }
+    }
+}

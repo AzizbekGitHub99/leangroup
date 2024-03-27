@@ -1,0 +1,29 @@
+.news__card {
+    &__img {
+        margin-bottom: 24px;
+        width: 100%;
+        object-fit: contain;
+        height: 203px;
+    }
+
+    &__date {
+        color: rgb(145, 147, 153);
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+    }
+
+    &__desc{
+        color: rgb(44, 45, 46);
+        font-weight: 500;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 866px){
+    .news__card{
+        &__img{
+            margin-bottom: 0px;
+        }
+    }
+}

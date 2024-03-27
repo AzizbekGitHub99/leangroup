@@ -1,0 +1,33 @@
+.sertf {
+    padding: 40px 0;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        span{
+            color: #EF7C00;
+        }
+    }
+
+    &__img{
+        position: relative;
+        left: 25%;
+        right: 25%;
+        margin-bottom: 10px;
+    }
+}
+
+div.swiper-button-prev::after, div.swiper-button-next::after{
+    color: rgb(191, 193, 199);
+}
+
+
+
+@media (max-width: 540px){
+    div.swiper-button-prev::after, div.swiper-button-next::after{
+        display: none;
+    }
+}

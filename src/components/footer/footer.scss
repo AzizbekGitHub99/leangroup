@@ -1,0 +1,111 @@
+.footer{
+    background: rgba(0, 16, 61, 0.06);
+    padding-bottom: 30px;
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top:30px ;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(145, 147, 153);
+        div{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+    }
+
+    &__links{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-top: 16px;
+    }
+
+    &__list{
+        
+        h3{
+            color: rgb(44, 45, 46);
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 28px;
+            margin-bottom: 24px;
+        }
+
+        &__item{
+            color: rgb(44, 45, 46);
+            font-weight: 500;
+            line-height: 24px;
+            margin-bottom: 12px;
+
+            &:hover{
+                color: #EF7C00;
+            }
+        }
+    }
+
+    &__contacts{
+        
+        li{
+            display: flex;
+            flex-direction: column;
+            color: rgb(239, 124, 0);
+            font-weight: 500;
+            line-height: 24px;
+        }
+
+        a{
+            color: rgb(44, 45, 46);
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-bottom: 8px;
+            margin-top: 12px;
+        }
+    }
+}
+
+@media (max-width: 835px){
+    .footer{
+        
+        &__contacts{
+            display: none;
+        }
+
+        &__links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 567px){
+    .footer{
+        &__list{
+            h3{
+                font-size: 20px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+    
+            &__item{
+                line-height: 18px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 455px){
+    .footer{
+        &__links{
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        &__list{
+            text-align: center;
+        }
+    }
+}
