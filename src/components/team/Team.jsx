@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import Button from '../button';
+import Button from '../button/Btn';
 
-import Card from '../team-card';
+import Card from '../team-card/TeamCard';
 import teams from '../../data/team';
 
 import "./team.scss";

@@ -2,7 +2,7 @@ import { Component } from 'react'
 
 
 import './home.scss';
-import Button from '../button';
+import Button from '../button/Btn';
 
 class Home extends Component {
   render() {

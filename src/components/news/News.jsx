@@ -1,9 +1,9 @@
 import  { Component } from 'react';
 
-import Button from '../button';
+import Button from '../button/Btn';
 
 import data from '../../data/news';
-import NewsCard from '../news-card';
+import NewsCard from '../news-card/NewsCard';
 
 import './news.scss'
 

@@ -1,6 +1,6 @@
 import  { Component } from 'react'
 
-import Button from '../button';
+import Button from '../button/Btn';
 
 import img1 from '../../assets/images/phone.png';
 import img3 from '../../assets/images/user.png';
@@ -17,7 +17,7 @@ export class Product extends Component {
                     Получить подробную <span>информацию</span>
                 </h2>
                 <p className='product__wrapper__text'>
-                    Просто заполните форму, наш менеджер свяжется с вами в ближайшее время
+                    Просто заполните форму, наш менеджер свяжетсяс вами в ближайшее время
                 </p>
                 <div className='product__inner'>
                     <div>

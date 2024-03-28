@@ -1,11 +1,11 @@
 import  { Component } from 'react'
-import Layout from '../components/layout';
-import Home from '../components/home';
-import About from '../components/about';
-import Sertificate from '../components/certificate';
-import Product from '../components/product';
-import Team from '../components/team';
-import News from '../components/news';
+import Layout from '../components/layout/Layout';
+import Home from '../components/home/Home';
+import About from '../components/about/About';
+import Sertificate from '../components/certificate/Certificate';
+import Product from '../components/product/Product';
+import Team from '../components/team/Team';
+import News from '../components/news/News';
 
 
 class HomePage extends Component {

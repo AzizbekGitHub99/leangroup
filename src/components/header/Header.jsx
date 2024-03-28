@@ -41,12 +41,12 @@ export class Header extends Component {
                 </ul> */}
               </li>
               <li>
-                <a className='header__link' href="#certificate">
+                <a className='header__link' href="#sertf">
                   Сертификаты
                 </a>
               </li>
               <li>
-                <a className='header__link' href="#company">
+                <a className='header__link' href="#team">
                   Наша команда
                 </a>
               </li>

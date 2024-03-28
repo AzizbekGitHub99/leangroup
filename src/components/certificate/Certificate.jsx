@@ -17,7 +17,7 @@ import img4 from '../../assets/images/srtf-4.png';
 import img5 from '../../assets/images/srtf-5.png';
 
 
-import './sertificate.scss';
+import './Certificate.scss';
 
 export class Sertificate extends Component {
     render() {
@@ -26,22 +26,22 @@ export class Sertificate extends Component {
                 <div className="container">
                     <h1 className='sertf__title'>Качество продукции подтверждают <span>сертификаты</span></h1>
                     <Swiper
-                        effect={'coverflow'}
+                        // effect={'coverflow'}
                         grabCursor={true}
                         centeredSlides={true}
                         slidesPerView={'auto'}
-                        coverflowEffect={{
-                            rotate: 30,
-                            stretch: 70,
-                            depth: 80,
-                            modifier: 1,
-                            slideShadows: false,
-                        }} 
-                        spaceBetween={30}
+                        // coverflowEffect={{
+                        //     rotate: 30,
+                        //     stretch: 70,
+                        //     depth: 80,
+                        //     modifier: 1,
+                        //     slideShadows: true,
+                        // }} 
+                        spaceBetween={35}
                         loop={true}
                         autoplay={{
-                            delay: 1500,
-                            disableOnInteraction: false,
+                            delay: 2000,
+                            // disableOnInteraction: true,
                         }}
                         pagination={{
                             clickable: true,
